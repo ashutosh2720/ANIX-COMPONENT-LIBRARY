@@ -114,6 +114,13 @@ nav .right-nav ul li{
     border-radius: 20px;
 }
 
+
+.bt{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
 @media screen and (max-width:800px) {
     .docs .left-docs{
         width: 30vw;

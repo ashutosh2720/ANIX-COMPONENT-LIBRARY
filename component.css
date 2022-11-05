@@ -1,0 +1,143 @@
+.btn{
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+   
+    outline: none;
+   
+}
+
+    
+    .btn:hover{
+        filter: brightness(110%);
+    }
+    
+    .btn:active{
+        transform: translate(0,0.3rem);
+   
+    }
+
+
+.btn:hover{
+    filter: brightness(110%);
+}
+
+.btn:active{
+    transform: translate(0,0.3rem);
+    box-shadow: 0,0.1rem rgba(2, 191, 238, 0.7);
+}
+
+.btn-primary{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(33,123,128);
+    outline: none;
+    
+}
+
+.btn-secondary{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(4, 98, 248);
+    outline: none;
+  
+}
+
+.btn-success{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(3, 123, 65);
+    outline: none;
+}
+
+.btn-danger{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(218, 15, 15);
+    outline: none;
+    
+}
+
+.btn-warning{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(237, 6, 68);
+    outline: none;
+    
+}
+
+.btn-info{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(7, 148, 172);
+    outline: none;
+    
+}
+
+.btn-light{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(41, 147, 253);
+    outline: none;
+    
+}
+
+.btn-dark{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(7, 0, 2);
+    outline: none;
+    
+}
