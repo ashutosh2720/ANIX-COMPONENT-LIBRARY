@@ -1,0 +1,38 @@
+#profile{
+    margin: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    box-shadow: 5px 5px 25px -5px rgba(188, 178, 178, 0.7);
+    padding: 20px 0px;
+    border-radius: 30px;
+
+}
+
+.profile-circuler img{
+        background-color: rgb(2, 169, 174);
+        border: 2px solid var(--light-color);
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+.profile-lg img{
+        width: 12rem;
+    }
+
+
+    .profile-md img {
+        width: 10rem;
+    }
+    
+    .profile-sm img {
+        width: 8rem;
+    }
+    
+    .profile-xsm img {
+        width: 6rem;
+    }
+    
+   
