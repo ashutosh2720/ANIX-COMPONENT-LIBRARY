@@ -43,7 +43,7 @@ nav .right-nav ul li{
 
 
 .docs{
-    display: flex;
+    display:flex;
 }
 
 .docs .left-docs{
@@ -86,8 +86,8 @@ nav .right-nav ul li{
     color: white;
     cursor: pointer;
     background-color:rgb(33, 123, 128);
-    padding: 10px;
     width: 100px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,14 +126,15 @@ nav .right-nav ul li{
 }
 @media screen and (max-width:800px) {
     .docs .left-docs{
-        width: 30vw;
+        width: 40vw;
+    
     }
     .docs .right-docs{
-        width: 70vw;
+        width: 60vw;
     }
 
     html{
-        font-size: 10px
+        font-size:15px
     }
 
     .left-docs ul li{
