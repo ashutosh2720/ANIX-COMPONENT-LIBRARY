@@ -1,6 +1,7 @@
-
-*,
-
+@import url("./button.css");
+@import url("card.css");
+@import url("profile.css");
+ 
 *::after,
 ::before{
     box-sizing: border-box;
