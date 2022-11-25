@@ -6,6 +6,10 @@
 html{
     font-size: 100%;
 }
+body{
+    font-size: 15px;
+    font-family:;
+}
 
 nav{
     display: flex;
