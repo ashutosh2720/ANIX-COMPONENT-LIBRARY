@@ -1,5 +1,4 @@
-.card1{
-    border-radius: 25px;
+.card1 {
     width: 328px;
     height: 590px;
     margin: 50px;
@@ -59,12 +58,11 @@ small {
 }
 
 
-.card2{
+.card2 {
     margin: 40px;
     width: 350px;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 25px -5px;
+    min-height: 250px;
+    box-shadow: 30px 10px 25px -5px rgb(202, 187, 187);
 }
 
 .image {
