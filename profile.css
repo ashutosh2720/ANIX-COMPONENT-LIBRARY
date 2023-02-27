@@ -14,12 +14,13 @@
 .profile-circuler img {
     background-color: rgb(2, 169, 174);
     border: 2px solid var(--light-color);
-    border-radius: 50%;
+    border-radius: 70%;
     cursor: pointer
 }
 
 .profile-lg img {
     width: 12rem;
+    border-radius: 50%;
 }
 
 
