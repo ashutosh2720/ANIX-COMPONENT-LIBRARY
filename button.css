@@ -1,299 +1,302 @@
-.btn{
+.btn {
     cursor: pointer;
     font-size: 3.2rem;
-    height: 4rem;
-    width: 7rem;
+    padding: 10px;
     border: none;
     border-radius: 10px;
-    color:white;
+    color: white;
     outline: none;
-   
+
 }
 
-    
-    .btn:hover{
-        filter: brightness(110%);
-    }
-    
-    .btn:active{
-        transform: translate(0,3rem);
-   
-    }
+iframe {
+    margin-top: 10px;
+}
 
 
-.btn:hover{
+.btn:hover {
+    filter: brightness(110%);
+}
+
+.btn:active {
+    transform: translate(0, 3rem);
+
+}
+
+
+.btn:hover {
     filter: brightness(90%);
 }
 
-.btn:active{
-    transform: translate(0,0.3rem);
-    box-shadow: 0,0.1rem rgba(2, 191, 238, 0.7);
+.btn:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0, 0.1rem rgba(2, 191, 238, 0.7);
 }
 
-.btn-primary{
-    
+.btn-primary {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(33,123,128);
+    color: white;
+    background-color: rgb(33, 123, 128);
     outline: none;
-    
+
 }
 
-.btn-secondary{
-    
+.btn-secondary {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(4, 98, 248);
+    color: white;
+    background-color: rgb(4, 98, 248);
     outline: none;
-  
+
 }
 
-.btn-success{
-    
+.btn-success {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(3, 123, 65);
+    color: white;
+    background-color: rgb(3, 123, 65);
     outline: none;
 }
 
-.btn-danger{
-    
+.btn-danger {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(218, 15, 15);
+    color: white;
+    background-color: rgb(218, 15, 15);
     outline: none;
-    
+
 }
 
-.btn-warning{
-    
+.btn-warning {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(237, 6, 68);
+    color: white;
+    background-color: rgb(237, 6, 68);
     outline: none;
-    
+
 }
 
-.btn-info{
-    
+.btn-info {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(7, 148, 172);
+    color: white;
+    background-color: rgb(7, 148, 172);
     outline: none;
-    
+
 }
 
-.btn-light{
-    
+.btn-light {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(41, 147, 253);
+    color: white;
+    background-color: rgb(41, 147, 253);
     outline: none;
-    
+
 }
 
-.btn-dark{
-    
+.btn-dark {
+
     cursor: pointer;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    color:white;
-    background-color:rgb(7, 0, 2);
+    color: white;
+    background-color: rgb(7, 0, 2);
     outline: none;
-    
+
 }
 
-.btn-outline-primary{
-     
+.btn-outline-primary {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:green;
-    outline:black;
+    color: green;
+    outline: black;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.btn-outline-primary:hover{
-     
-background-color:rgb(33,123,128);
-color: white;
+.btn-outline-primary:hover {
+
+    background-color: rgb(33, 123, 128);
+    color: white;
 }
 
 
-.btn-outline-secondary{
-     
+.btn-outline-secondary {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:blue;
+    color: blue;
     transition: .5s ease-in-out;
-    outline:black;
-    
+    outline: black;
+
 
 }
 
-.btn-outline-secondary:hover{
-     
-background-color:rgb(4, 98, 248);
-color: white;
+.btn-outline-secondary:hover {
+
+    background-color: rgb(4, 98, 248);
+    color: white;
 }
 
-.btn-outline-success{
-     
+.btn-outline-success {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:green;
-    outline:black;
+    color: green;
+    outline: black;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.btn-outline-success:hover{
-     
-background-color:green;
-color: white;
+.btn-outline-success:hover {
+
+    background-color: green;
+    color: white;
 }
 
-.btn-outline-danger{
-     
+.btn-outline-danger {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:red;
-    outline:black;
+    color: red;
+    outline: black;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.btn-outline-danger:hover{
-     
-background-color:red;
-color: white;
+.btn-outline-danger:hover {
+
+    background-color: red;
+    color: white;
 }
 
-.btn-outline-warning{
-     
+.btn-outline-warning {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:rgb(189, 3, 3);
-    outline:black;
+    color: rgb(189, 3, 3);
+    outline: black;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.btn-outline-warning:hover{
-     
-background-color:rgb(181, 3, 3);
-color: white;
+.btn-outline-warning:hover {
+
+    background-color: rgb(181, 3, 3);
+    color: white;
 }
 
-.btn-outline-info{
-     
+.btn-outline-info {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:rgb(14, 109, 241);
-    outline:black;
+    color: rgb(14, 109, 241);
+    outline: black;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.btn-outline-info:hover{
-     
-background-color:rgb(9, 144, 240);
-color: white;
+.btn-outline-info:hover {
+
+    background-color: rgb(9, 144, 240);
+    color: white;
 }
 
 
-.btn-outline-light{
-     
+.btn-outline-light {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:rgb(10, 104, 245);
-    outline:black;
+    color: rgb(10, 104, 245);
+    outline: black;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.btn-outline-light:hover{
-     
-background-color:rgb(64, 197, 249);
-color: white;
+.btn-outline-light:hover {
+
+    background-color: rgb(64, 197, 249);
+    color: white;
 }
 
 
-.btn-outline-dark{
-     
+.btn-outline-dark {
+
     cursor: pointer;
     font-size: 1.2rem;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    color:black;
-    outline:black;
-    
-    
+    color: black;
+    outline: black;
+
+
 
 }
 
-.btn-outline-dark:hover{
-     
-background-color:black;
-color: white;
+.btn-outline-dark:hover {
+
+    background-color: black;
+    color: white;
 }
 
-.btn-tag{
-     
+.btn-tag {
+
     cursor: pointer;
     font-size: 1.2rem;
     background-color: blue;
     border-radius: 10px;
-    color:white;
-    outline:black;
-    
+    color: white;
+    outline: black;
+
 
 }
 
-.btn-tag:hover{
-     
-background-color:rgb(68, 68, 232);
-color: white;
+.btn-tag:hover {
+
+    background-color: rgb(68, 68, 232);
+    color: white;
 }

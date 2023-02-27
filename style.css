@@ -26,12 +26,13 @@
    justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   font-family: 'Caveat', cursive;
+   font-family: 'Merienda', cursive;
+   font-size: .7rem;
 
 }
 
 .showcase .slogan {
-   font-size: 1.5rem;
+   font-size: 1rem;
 }
 
 .showcase .left-showcase {
@@ -98,18 +99,19 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: rgba(114, 198, 234, 0.586);
-   color: #0e9fe2;
+   background-color: rgba(31, 182, 241, 0.586);
+   color: black;
    cursor: pointer;
    gap: 20px;
    padding: 18px 20px;
-   font-family: 'Caveat', cursive;
+   font-family: 'Merienda', cursive;
    border-radius: 20px;
+   font-size: .6rem;
 }
 
 .accordion-header:hover {
    background-color: #48dbeebe;
-   color: white;
+   color: black;
 }
 
 .accordion-header::after {
@@ -118,8 +120,8 @@
    font-weight: bold;
    position: absolute;
    right: 20px;
-   top: 80%;
-   transform: translateY(-50%);
+   top: 90%;
+   transform: translateY(-90%);
 }
 
 .accordion-header.active::after {
@@ -133,17 +135,17 @@
    background-color: #fff;
    max-height: 0;
    color: blue;
-   font-size: 1rem;
+   font-size: .6rem;
    max-width: 100%;
    overflow: hidden;
-   padding: 0px 20px;
+   padding: 0px 30px;
    transition: max-height 0.2s ease-out;
-   font-family: 'Caveat', cursive;
+   font-family: 'Merienda', cursive;
    ;
 }
 
 .accordion-content.active {
-   max-height: 900px;
+   max-height: 1000px;
    /* Adjust as needed */
    transition: max-height 0.2s ease-in;
 }

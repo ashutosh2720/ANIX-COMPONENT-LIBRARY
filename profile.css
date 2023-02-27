@@ -1,4 +1,4 @@
-#profile{
+#profile {
     margin: 25px 0px;
     display: flex;
     justify-content: center;
@@ -11,28 +11,26 @@
 
 }
 
-.profile-circuler img{
-        background-color: rgb(2, 169, 174);
-        border: 2px solid var(--light-color);
-        border-radius: 100%;
-        cursor: pointer;
-    }
+.profile-circuler img {
+    background-color: rgb(2, 169, 174);
+    border: 2px solid var(--light-color);
+    border-radius: 50%;
+    cursor: pointer
+}
 
-.profile-lg img{
-        width: 12rem;
-    }
+.profile-lg img {
+    width: 12rem;
+}
 
 
-    .profile-md img {
-        width: 10rem;
-    }
-    
-    .profile-sm img {
-        width: 8rem;
-    }
-    
-    .profile-xsm img {
-        width: 6rem;
-    }
-    
-   
+.profile-md img {
+    width: 10rem;
+}
+
+.profile-sm img {
+    width: 8rem;
+}
+
+.profile-xsm img {
+    width: 6rem;
+}

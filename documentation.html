@@ -34,7 +34,7 @@
             <h1 style="font-size:25px">Geting Started</h1>
             <ul>
                 <li><a href="#intro">Introduction</a></li>
-                <li><a href="#navbar">Installation</a></li>
+                <li><a href="#install">Installation</a></li>
                 <hr style="width: 200px">
                 <img src="./img/component.png" alt="" style="height:40px">
                 <h1 style="font-size:25px">Components</h1>
@@ -42,7 +42,13 @@
                 <li><a href="#profile">profile</a></li>
                 <li><a href="#card">Cards</a></li>
                 <li><a href="#login">login</a></li>
-                <li><a href="#badge">badge</a></li>
+                <li><a href="#badge">Alerts</a></li>
+                <li><a href="#badge">form</a></li>
+                <li><a href="#badge">Loader</a></li>
+                <li><a href="#badge">Navbar</a></li>
+                <li><a href="#badge">Acordian</a></li>
+                <li><a href="#badge">Snackbar</a></li>
+                <li><a href="#badge">Footer</a></li>
 
             </ul>
 
@@ -51,7 +57,7 @@
         <div class="right-docs">
 
             <div id="intro">
-                <h1>Getting Started with <span style="color:rgb(33, 123, 128)"> ANIX</span></h1><br>
+                <h1>Getting Started with <span> ANIX</span></h1><br>
                 <hr>
                 <p>ANIX is a powerful, feature-packed frontend Component Library. Just Think what you want to Build on
                     your website and ANIX Provides it in just a minutes.</p><br>
@@ -60,14 +66,14 @@
                 <hr>
                 <p>Get started by including ANIX production-ready CSS via CDN links without the need for any build
                     steps</p><br><br><br>
-                <p>1. Create a new <span style="color: rgb(33, 123, 128)"> index.html </span>file in your project root.
+                <p>1. Create a new <span> index.html </span>file in your project root.
                     Include the
                     <meta name="viewport"> tag as well for proper responsive behavior in mobile devices.Create a new
                     index.html file in your project root. Include the
                     <meta name="viewport"> tag as well for proper responsive behavior in mobile devices.
                 <p>
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253C%21doctype%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522utf-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctilte%253EANIX%2520demo%2520%253C%252Ftilte%253E%250A%2520%2520%2520%2520%253C%252Fhead%253E%250A%2520%2520%2520%2520%253Cbody%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253Ehello%2520world%2520%25F0%259F%2598%258A%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fbody%253E%250A%253C%252Fhtml%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=javascript&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253C%21doctype%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522utf-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctilte%253EANIX%2520demo%2520%253C%252Ftilte%253E%250A%2520%2520%2520%2520%253C%252Fhead%253E%250A%2520%2520%2520%2520%253Cbody%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253Ehello%2520world%2520%25F0%259F%2598%258A%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fbody%253E%250A%253C%252Fhtml%253E"
                         style="width: 1280px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
@@ -79,14 +85,45 @@
 </body>
 
 <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253C%21doctype%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522utf-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctitle%253EANIX%27S%2520DEMO%253C%252Ftitle%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520href%253D%2522https%253A%252F%252Fanix-component-library.netlify.app%252Fstyle.css%2522%2520rel%253D%2522stylesheet%2522%2520%253E%250A%2520%2520%2520%2520%253C%252Fhead%253E%250A%253C%252Fhtml%253E"
+    src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=javascript&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253C%21doctype%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522utf-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctitle%253EANIX%27S%2520DEMO%253C%252Ftitle%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520href%253D%2522https%253A%252F%252Fanix-component-library.netlify.app%252Fstyle.css%2522%2520rel%253D%2522stylesheet%2522%2520%253E%250A%2520%2520%2520%2520%253C%252Fhead%253E%250A%253C%252Fhtml%253E"
     style="width: 1280px; height: 269px; border:0; transform: scale(1); overflow:hidden;"
     sandbox="allow-scripts allow-same-origin">
 </iframe>
 
+<div id="install">
+    <h1>How to install ?</h1>
+    <p>To use all features of Anix-ui, Just Add CDN Link of css in head tag and JavaScript at the end of body tag of
+        index.html file. After adding CDN links Just search for your UI like navbar, button, form etc in Anix-ui
+        components and Copy the HTML code given then add the code in your HTML file where you want to add this UI.</p>
+    <br><br>
+    <h2>CDN Link</h2>
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=javascript&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520href%253D%2522https%253A%252F%252Fanix-component-library.netlify.app%252Fstyle.css%2522%2520rel%253D%2522stylesheet%2522%2520%253E%250A%2520"
+        style="width: 1280px; height: 128px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    <br><br>
+
+    <h3>Examples: Add button in your website</h3>
+    <p>1.Add CDN Link of css in head tag and JavaScript at the end of body tag
+    </p>
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=javascript&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253C%21doctype%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522utf-8%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctitle%253EANIX%27S%2520DEMO%253C%252Ftitle%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520href%253D%2522https%253A%252F%252Fanix-component-library.netlify.app%252Fstyle.css%2522%2520rel%253D%2522stylesheet%2522%2520%253E%250A%2520%2520%2520%2520%253C%252Fhead%253E%250A%2520%2520%2520%253Ctitle%253EButton-Preview%253C%252Ftitle%253E%250A%253C%252Fhead%253E%250A%253C%252Fhtml%253E"
+        style="width: 1280px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    <p>2.Copy the HTML code of Button of your choice from WebHelpUI components</p>
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=javascript&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520id%253D%2522btn-secondary%2522%253ESecondary%253C%252Fbutton%253E"
+        style="width: 1280px; height: 104px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+</div><br><br><br><br><br>
+
 
 <div id="button">
-    <h1>Buttons</h1><br><br>
+    <h1>Buttons</h1>
     <hr>
     <p>Buttons are very important part of any website because buttons can link all the things and gives a good user
         experience.</p>
@@ -98,11 +135,11 @@
         2.Outlined Buttons <br>
         3. Tag Buttons <br>
     </h2><br><br>
-    <hr><br><br>
+    <hr>
 
     <h1>Solid Buttons</h1><br>
-    <h2>These buttons are build with <span style="color: rgb(33, 123, 128)"> button</span> tag and <span
-            style="color: rgb(33, 123, 128);">anchor </span>tag so you can add link here also</h2>
+    <p>These buttons are build with <span> button</span> tag and <span>anchor
+        </span>tag so you can add link here also</p>
     <br><br>
     <div class="bt">
         <a href="#"><button class="btn btn-primary">Primary</button></a>
@@ -116,7 +153,7 @@
     </div>
     <iframe
         src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondry%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-light%2522%253ELight%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-dark%2522%253EDark%253C%252Fbutton%253E%253C%252Fa%253E"
-        style="width: 1280px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+        style="width: 82vw; height: 246px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
     </iframe><br><br>
     <hr>
@@ -137,7 +174,7 @@
 
     <iframe
         src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-danger%2522%253EDanger%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-info%2522%253EInfo%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-light%2522%253ELight%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-dark%2522%253EDark%253C%252Fbutton%253E%253C%252Fa%253E"
-        style="width: 1280px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+        style="width: 82vw; height: 246px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
     </iframe><br><br><br><br>
     <hr>
@@ -160,20 +197,21 @@
 
     <iframe
         src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-tag%2522%253EButton%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-tag%2522%253EReset%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-tag%2522%253EInput%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-tag%2522%253ESubmit%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-tag%2522%253ELink%253C%252Fbutton%253E%253C%252Fa%253E"
-        style="width: 1280px; height: 175px; border:0; transform: scale(1); overflow:hidden;"
+        style="width: 82vw; height: 175px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
     </iframe><br>
-    <hr>
 
 
 
-</div>
 
-<h1>Profile</h1><br><br>
+</div><br><br><br>
+
+<h1>Profile</h1>
+<hr>
 <p>Circular Profile can be used to show user profile or company logo. You can change the image also.
 
-    You can use this design by adding a class name <span style="color:rgb(33,123,128)"> profile-circuler</span> and use
-    any size by adding class names <span style="color:rgb(33,123,128)"> ".profile-lg",
+    You can use this design by adding a class name <span> profile-circuler</span> and use
+    any size by adding class names <span> ".profile-lg",
         "profile-md","profile-sm","profile-xsm","</span>.
 
     You can also give custon size and style by using these class names </p>
@@ -182,43 +220,45 @@
 <div id="profile">
 
     <div class="profile-circuler profile-lg">
-        <img src="./img/logo1.png" alt="">
+        <img src="./img/avatar.jpg" alt="">
     </div>
 
     <div class="profile-circuler profile-md">
-        <img src="./img/logo1.png" alt="">
+        <img src="./img/avatar.jpg" alt="">
     </div>
 
     <div class="profile-circuler profile-sm">
-        <img src="./img/logo1.png" alt="">
+        <img src="./img/avatar.jpg" alt="">
     </div>
 
     <div class="profile-circuler profile-xsm">
-        <img src="./img/logo1.png" alt="">
+        <img src="./img/avatar.jpg" alt="">
     </div>
     <br><br><br>
 
-    <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-xsm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-        style="width: 1280px; height: 458px; border:0; transform: scale(1); overflow:hidden;"
-        sandbox="allow-scripts allow-same-origin">
-    </iframe>
 </div>
 
-<br><br>
-<hr><br><br>
+<iframe
+    src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-circuler%2520profile-xsm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Flogo1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+    style="width: 82vw; height: 458px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<br><br><br>
 
 <div id="card">
-    <h1>Cards</h1><br><br>
+    <h1>Cards</h1>
+    <hr>
     <p>A card is a flexible and extensible content container. It includes options for headers and footers, a wide
         variety of content, contextual background colors, and powerful display options
 
-        <span style="color:rgb(33,123,128)">ANIX</span> provides different types of Cards, you can pick any of them
-        according to your requirement. Just Add CDN Link in your <span style="color:rgb(33,123,128)">head</span> tag and
+        <span>ANIX</span> provides different types of Cards, you can pick any of them
+        according to your requirement. Just Add CDN Link in your <span>head</span> tag and
         copy-paste the HTML code then you will get a card.
     </p><br>
     <br><br><br>
     <h1>Sample card-1</h1>
+    <hr>
 
     <div class="card1">
         <div class="photo">
@@ -239,11 +279,12 @@
     <br>
     <iframe
         src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522photo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2017%252F01%252F31%252F19%252F07%252Fsucculent-in-blue-pot-2026508__340.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253Econtent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESub%2520Heading%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520the%2520content%2520paragraph.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253ERs.%2520999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522crossPrice%2522%253ERs.1099%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522offer%2522%253E10%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253E%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Fshopping-cart--v1.png%2522%2520%252F%253EAdd%2520to%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cart%253C%252Fa%2520href%253D%2522%2523%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-        style="width: 1280px; height: 458px; border:0; transform: scale(1); overflow:hidden;"
+        style="width: 82vw; height: 458px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
     </iframe><br><br><br><br>
 
-    <h1>Sample card-2</h1><br><br><br>
+    <h1>Sample card-2</h1>
+    <hr>
 
     <div class="card2">
         <div class="image">
@@ -267,8 +308,8 @@
     </div>
 
     <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=1280&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2019%252F06%252F17%252F08%252F24%252Fpastel-4279379_960_720.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EContent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Ethis%2520is%2520the%2520body%2520of%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%25F0%259F%25A4%258D%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fsmall%252F2x%252Fshare.png%2522%2520%252F%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fexternal-kmg-design-glyph-kmg-design%252F20%252F000000%252Fexternal-three-dots-user-interface-kmg-design-glyph-kmg-design.png%2522%2520%252F%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-        style="width: 1280px; height: 537px; border:0; transform: scale(1); overflow:hidden;"
+        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=javascript&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2019%252F06%252F17%252F08%252F24%252Fpastel-4279379_960_720.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EContent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Ethis%2520is%2520the%2520body%2520of%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%25F0%259F%25A4%258D%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fsmall%252F2x%252Fshare.png%2522%2520%252F%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fexternal-kmg-design-glyph-kmg-design%252F20%252F000000%252Fexternal-three-dots-user-interface-kmg-design-glyph-kmg-design.png%2522%2520%252F%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="width: 1280px; height: 529px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
     </iframe>
 </div>
