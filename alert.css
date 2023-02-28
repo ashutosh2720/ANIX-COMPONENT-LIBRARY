@@ -1,0 +1,65 @@
+.alert {
+    padding: 20px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.closebtn {
+    margin-left: 15px;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.error {
+    background-color: #f44336;
+    color: white;
+}
+
+.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.danger {
+    background-color: #8B0000;
+    color: white;
+}
+
+.alert-btn {
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.warning-btn {
+    background-color: yellow;
+}
+
+.error-btn {
+    background-color: red;
+    color: white;
+}
+
+.success-btn {
+    background-color: green;
+    color: white;
+}
+
+.danger-btn {
+    background-color: brown;
+    color: white;
+}

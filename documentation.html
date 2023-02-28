@@ -42,7 +42,7 @@
                 <li><a href="#profile">profile</a></li>
                 <li><a href="#card">Cards</a></li>
                 <li><a href="#login-form">login</a></li>
-                <li><a href="#badge">Alerts</a></li>
+                <li><a href="#alert">Alerts</a></li>
                 <li><a href="#badge">form</a></li>
                 <li><a href="#badge">Loader</a></li>
                 <li><a href="#badge">Navbar</a></li>
@@ -319,6 +319,14 @@
 
 
 <div id="login-form">
+    <h1>Login</h1>
+    <hr>
+    <p>Login Form is used to login for user account. Anix-ui provides login form also you can just add CDN link of CSS
+        and JavaScript, copy-paste the below code into your document and you will get a very responsive and awesome
+        Login form in your website. You can change the width of the form using className.
+
+    </p>
+    <br><br><br>
 
     <form class="login" method="get" action="login.php">
         <label><b>User Name
@@ -338,7 +346,61 @@
         <br><br>
         Forgot <a href="#">Password</a>
     </form>
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%2520%253Cform%2520class%253D%2522login%2522%2520method%253D%2522get%2522%2520action%253D%2522login.php%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%253Cb%253EUser%2520Name%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fb%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Uname%2522%2520id%253D%2522Uname%2522%2520placeholder%253D%2522Username%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%253Cb%253EPassword%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fb%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522Password%2522%2520name%253D%2522Pass%2522%2520id%253D%2522Pass%2522%2520placeholder%253D%2522Password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522button%2522%2520name%253D%2522log%2522%2520id%253D%2522log%2522%2520value%253D%2522Log%2520In%2520Here%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ERemember%2520me%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbr%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Forgot%2520%253Ca%2520href%253D%2522%2523%2522%253EPassword%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fform%253E"
+        style="width: 1280px; height: 489px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
 </div>
+
+
+
+<div id="alert">
+    <h1>Alerts</h1>
+    <hr>
+    <p>Alerts are very important part of any website to show alerts show that user feels more connected and cannot face
+        dificulties to use the website.
+
+        Anix-ui provides different types of alerts based on the situation, you can pick any of them according to your
+        requirement. These alerts are :</p><br>
+    <p>1.warning alerts</p>
+    <p>2.error alerts</p>
+    <p>3.sucess alerts</p>
+    <hp>4.danger alerts</p><br><br>
+        <div class="alert warning" id="warning">
+            <span class="closebtn" onclick="hideAlert('warning')">&times;</span>
+            <strong>Warning:</strong> This is a warning message!
+        </div>
+
+        <div class="alert error" id="error">
+            <span class="closebtn" onclick="hideAlert('error')">&times;</span>
+            <strong>Error:</strong> This is an error message!
+        </div>
+
+        <div class="alert success" id="success">
+            <span class="closebtn" onclick="hideAlert('success')">&times;</span>
+            <strong>Success:</strong> This is a success message!
+        </div>
+
+        <div class="alert danger" id="danger">
+            <span class="closebtn" onclick="hideAlert('danger')">&times;</span>
+            <strong>Danger:</strong> This is a danger message!
+        </div>
+
+        <button class=" alert-btn warning-btn" onclick="showAlert('warning')">Show Warning</button>
+        <button class=" alert-btn error-btn" onclick="showAlert('error')">Show Error</button>
+        <button class="alert-btn success-btn" onclick="showAlert('success')">Show Success</button>
+        <button class="alert-btn danger-btn" onclick="showAlert('danger')">Show Danger</button>
+
+        <br><br>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520warning%2522%2520id%253D%2522warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closebtn%2522%2520onclick%253D%2522hideAlert%28%27warning%27%29%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%253A%253C%252Fstrong%253E%2520This%2520is%2520a%2520warning%2520message%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%2520id%253D%2522error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closebtn%2522%2520onclick%253D%2522hideAlert%28%27error%27%29%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%253A%253C%252Fstrong%253E%2520This%2520is%2520an%2520error%2520message%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%2520id%253D%2522success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closebtn%2522%2520onclick%253D%2522hideAlert%28%27success%27%29%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%253A%253C%252Fstrong%253E%2520This%2520is%2520a%2520success%2520message%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520danger%2522%2520id%253D%2522danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closebtn%2522%2520onclick%253D%2522hideAlert%28%27danger%27%29%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EDanger%253A%253C%252Fstrong%253E%2520This%2520is%2520a%2520danger%2520message%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520alert-btn%2520warning-btn%2522%2520onclick%253D%2522showAlert%28%27warning%27%29%2522%253EShow%2520Warning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520alert-btn%2520error-btn%2522%2520onclick%253D%2522showAlert%28%27error%27%29%2522%253EShow%2520Error%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2520success-btn%2522%2520onclick%253D%2522showAlert%28%27success%27%29%2522%253EShow%2520Success%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2520danger-btn%2522%2520onclick%253D%2522showAlert%28%27danger%27%29%2522%253EShow%2520Danger%253C%252Fbutton%253E%250A"
+            style="width: 1280px; height: 646px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+</div>
+<script src="./js/alert.js"></script>
 
 </body>
 
