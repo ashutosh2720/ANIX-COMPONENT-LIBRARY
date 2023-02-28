@@ -4,6 +4,8 @@
 @import url("docs.css");
 @import url("login.css");
 @import url('alert.css');
+@import url('form.css');
+@import url('loader.css');
 
 *::after,
 ::before {

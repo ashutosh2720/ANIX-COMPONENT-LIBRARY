@@ -48,6 +48,11 @@ nav {
     font-family: 'Merienda', cursive;
 }
 
+
+.small {
+    display: none;
+}
+
 nav .left-nav a {
     border-bottom: 1px solid black;
     text-decoration: none;
@@ -191,18 +196,71 @@ span {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width:800px) {
-    .docs .left-docs {}
+@media screen and (max-width:1200px) and (min-width:200px) {
+    .docs .left-docs {
+        display: none;
+    }
 
-    .docs .right-docs {}
+    .docs .right-docs {
+        width: 100vw;
+    }
+
+    nav {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
 
     html {
         font-size: 15px
     }
 
-    .left-docs ul li {
-        width: 70px;
+    iframe {
+        max-width: 700px;
+        max-height: 1200px;
+        padding-left: 0px;
     }
+
+    .left-nav img {
+        display: none;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .small {
+        display: flex;
+    }
+
+    .small {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .small .menu img {
+        height: 23px;
+        cursor: pointer;
+    }
+
+    .small .logo img {
+        height: 70px;
+        cursor: pointer;
+    }
+
+    .small .dots img {
+        height: 30px;
+        cursor: pointer;
+    }
+
 }
