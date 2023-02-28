@@ -37,7 +37,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #e1eaf5;
-    padding: 20px 50px;
+    padding: 10px 10px;
     position: relative;
     width: 100vw;
     height: 80px;
@@ -209,7 +209,6 @@ span {
     }
 
     nav {
-        padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;

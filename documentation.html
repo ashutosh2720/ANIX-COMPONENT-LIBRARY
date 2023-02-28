@@ -50,9 +50,9 @@
                 <li><a href="#alert">Alerts</a></li>
                 <li><a href="#Form">form</a></li>
                 <li><a href="#loader">Loader</a></li>
+                <li><a href="#acc">Acordion</a></li>
+                <li><a href="#snackbar">Snackbar</a></li>
                 <li><a href="#badge">Navbar</a></li>
-                <li><a href="#badge">Acordian</a></li>
-                <li><a href="#badge">Snackbar</a></li>
                 <li><a href="#badge">Footer</a></li>
 
             </ul>
@@ -456,11 +456,62 @@
         <div class="loader loader3"></div>
     </div>
 
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28236%2C232%2C240%2C1%29&t=vscode&wt=none&l=text%2Fx-csrc&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=18px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522loader%2520loader1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522loader%2520loader2%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522loader%2520loader3%2522%253E%253C%252Fdiv%253E"
+        style="width: 1280px; height: 145px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+</div><br><br><br><br><br>
 
+<div id="acc">
+    <h1>Accordian</h1>
+    <hr>
+    <p>Build vertically collapsing accordions in combination with our Collapse JavaScript plugin. Accordians are used to
+        show Q&A on the website.
+
+
+        WebHelpUI provides different types of Accordians with different style, you can pick any of them according to
+        your requirement</p>
+    <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2>how can i link css file in our code</h2>
+            </div>
+            <div class="accordion-content">
+                <h1>this is a very simple task , from the installlation section copy the cdn link of
+                    css and past it inside head</h2>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2>can i made changes in the component by writing css code</h2>
+            </div>
+            <div class="accordion-content">
+                <h1>yes ! you can make changes to it butif you overwrite things then you have
+                    write !important keyword in your css code</h1>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2>can i made more css properties</h2>
+            </div>
+            <div class="accordion-content">
+                <h1>yes you can add more custom css properties by targeting the classname or id of
+                    that component</h1>
+            </div>
+        </div>
+    </div>
 </div>
+<div id="snackbar"></div>
+
+<button onclick="showSnackbar()">Show Snackbar</button>
+<button onclick="showSnackbar()">Show Snackbar</button>
+<button onclick="showSnackbar()">Show Snackbar</button>
 
 <script src="./js/alert.js"></script>
 <script src="./js/loader.js"></script>
+<script src="./js/acordian.js"></script>
+<script src="./js/snackbar.js"></script>
 
 </body>
 

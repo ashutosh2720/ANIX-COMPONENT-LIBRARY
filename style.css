@@ -6,6 +6,7 @@
 @import url('alert.css');
 @import url('form.css');
 @import url('loader.css');
+@import url('snackbar.css');
 
 *::after,
 ::before {
@@ -119,7 +120,7 @@
 }
 
 .accordion-header::after {
-   content: '\002B';
+   /* content: '\002B'; */
    color: #777;
    font-weight: bold;
    position: absolute;
@@ -139,7 +140,7 @@
    background-color: #fff;
    max-height: 0;
    color: blue;
-   font-size: .6rem;
+   font-size: .7rem;
    max-width: 100%;
    overflow: hidden;
    padding: 0px 30px;
@@ -149,7 +150,39 @@
 }
 
 .accordion-content.active {
-   max-height: 1000px;
+   max-height: 10px;
    /* Adjust as needed */
    transition: max-height 0.2s ease-in;
+}
+
+
+/* next  */
+.faq-accordion {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.accordion-item {
+   /* border: 1px solid #ccc; */
+   margin-bottom: 10px;
+}
+
+.accordion-header {
+   background-color: #51d5edd9;
+   padding: 10px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.accordion-header:hover {
+   background-color: #ddd;
+}
+
+.accordion-content {
+   padding: 10px;
+   display: none;
+}
+
+.accordion-item.active .accordion-content {
+   display: block;
 }
