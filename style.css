@@ -181,7 +181,7 @@
    display: block;
 }
 
-@media screen and (max-width:600px) and (min-width:300px) {
+@media screen and (max-width:768px) and (min-width:300px) {
 
    .footer {
       font-size: .5rem;
@@ -190,6 +190,84 @@
    .footer .social img {
       width: 100px;
    }
+
+
+   .small {
+      display: flex;
+   }
+
+   .small {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0px 10px;
+   }
+
+   .small .menu img {
+      height: 20px;
+      cursor: pointer;
+   }
+
+   .small .logo img {
+      height: 50px;
+      cursor: pointer;
+   }
+
+   .small .dots img {
+      height: 23px;
+      cursor: pointer;
+   }
+
+   nav .left-nav {
+      display: none;
+   }
+
+   .right-nav {
+      display: none;
+   }
+
+
+
+}
+
+@media screen and (max-width:1280px) and (min-width:768px) {
+
+   .footer {
+      font-size: .5rem;
+   }
+
+   .footer .social img {
+      width: 100px;
+   }
+
+   .docs .left-docs {
+      display: block;
+      min-width: 30vw;
+      font-weight: bolder;
+      border: .5px solid black;
+      max-height: 90vh;
+      background-color: whitesmoke;
+      margin-top: 20px;
+      margin-left: -5px;
+      border-radius: 10px;
+   }
+
+
+   .small {
+      display: none;
+   }
+
+   nav .left-nav {
+      display: flex;
+   }
+
+   .right-nav {
+      display: flex;
+   }
+
+
 
 }
 
@@ -202,5 +280,6 @@
    .footer .social img {
       width: 150px;
    }
+
 
 }

@@ -53,6 +53,7 @@ nav {
     display: none;
 }
 
+
 nav .left-nav a {
     border-bottom: 1px solid black;
     text-decoration: none;
@@ -208,62 +209,10 @@ span {
         width: 100vw;
     }
 
-    nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2px;
-    }
-
-
-
-
     html {
         font-size: 15px
     }
 
-    .left-nav img {
-        display: none;
-    }
 
-    .right-nav {
-        display: none;
-    }
-
-    .small {
-        display: flex;
-    }
-
-    .small {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-
-    .small .menu img {
-        height: 30px;
-        cursor: pointer;
-    }
-
-    .small .logo img {
-        height: 70px;
-        cursor: pointer;
-    }
-
-    .small .dots img {
-        height: 40px;
-        cursor: pointer;
-    }
-
-}
-
-
-@media screen and (max-width:600px) and (min-width:200px) {
-
-    footer {
-        font-size: .1rem;
-    }
 
 }
