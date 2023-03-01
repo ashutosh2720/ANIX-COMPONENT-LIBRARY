@@ -47,7 +47,7 @@
                 <h1 style="font-size:25px">Components</h1>
                 <li><a href="#button">Buton</a></li>
                 <li><a href="#profile">profile</a></li>
-                <li><a href="#card">Cards</a></li>
+                <li><a href="#cards">Cards</a></li>
                 <li><a href="#login-form">login</a></li>
                 <li><a href="#alert">Alerts</a></li>
                 <li><a href="#Form">form</a></li>
@@ -87,17 +87,17 @@
                     <script></script> tag for our JavaScript bundle before the closing
 </body>
 <pre>
-    <code>
-        &lt;!doctype html&gt;
-            &lt;html lang=&quot;en&quot;&gt;
-             &lt;head&gt;
-             &lt;meta charset=&quot;utf-8&quot;&gt;
-            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-            &lt;title&gt;ANIX'S DEMO&lt;/title&gt;
-            &lt;link href=&quot;https://anix-component-library.netlify.app/style.css&quot; rel=&quot;stylesheet&quot; &gt;
-                &lt;/head&gt;
-                &lt;/html&gt;
-    </code>
+ <code>
+     &lt;!doctype html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+          &lt;meta charset=&quot;utf-8&quot;&gt;
+          &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+          &lt;title&gt;ANIX'S DEMO&lt;/title&gt;
+          &lt;link href=&quot;https://anix-component-library.netlify.app/style.css&quot; rel=&quot;stylesheet&quot; &gt;
+        &lt;/head&gt;
+     &lt;/html&gt;
+  </code>
 </pre>
 
 <div id="install">
@@ -108,11 +108,11 @@
     <br><br>
     <h2>CDN Link</h2>
     <pre>
-        <code>
-            &lt;link href=&quot;https://anix-component-library.netlify.app/style.css&quot; rel=&quot;stylesheet&quot; &gt;
+ <code>
+   &lt;link href=&quot;https://anix-component-library.netlify.app/style.css&quot; rel=&quot;stylesheet&quot; &gt;
  
-        </code>
-    </pre>
+ </code>
+</pre>
     <br><br>
 
     <h3>Examples: Add button in your website</h3>
@@ -165,7 +165,20 @@
     <p>These buttons are build with <span> button</span> tag and <span>anchor
         </span>tag so you can add link here also</p>
     <br><br>
-    <div class="bt">
+
+
+    <div class="b">
+
+        <div class="bt">
+            <a href="#"><button class="btn btn-primary">Primary</button></a>
+            <a href="#"><button class="btn btn-secondary">Secondry</button></a>
+            <a href="#"><button class="btn btn-success">Success</button></a>
+            <a href="#"><button class="btn btn-danger">Danger</button></a>
+            <a href="#"><button class="btn btn-warning">Warning</button></a>
+            <a href="#"><button class="btn btn-info">Info</button></a>
+            <a href="#"><button class="btn btn-light">Light</button></a>
+            <a href="#"><button class="btn btn-dark">Dark</button></a>
+        </div>
         <pre>
             <code>
                 &lt;a href=&quot;#&quot;&gt;&lt;button class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;&lt;/a&gt;
@@ -292,7 +305,7 @@
 
 <br><br><br>
 
-<div id="card">
+<div id="cards">
     <h1>Cards</h1>
     <hr>
     <p>A card is a flexible and extensible content container. It includes options for headers and footers, a wide
@@ -306,95 +319,57 @@
     <h1>Sample card-1</h1>
     <hr>
 
-    <div class="card1">
-        <div class="photo">
-            <img src="https://cdn.pixabay.com/photo/2017/01/31/19/07/succulent-in-blue-pot-2026508__340.jpg" alt="">
-        </div>
-        <div class="content">
-            <h2>content Heading</h2>
-            <small>Sub Heading</small>
-            <p>This is the content paragraph.</p>
-            <span class="price">Rs. 999</span>
-            <span class="crossPrice">Rs.1099</span>
-            <span class="offer">10%</span>
-        </div>
-        <div class="button"><a href="#"><img
-                    src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" />Add to
-                cart</a href="#"></div>
-
-
+    <div class="card">
+        <img src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/Naruto.jpg?fit=1280%2C720&ssl=1"
+            alt="Placeholder image">
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis libero vel erat bibendum sodales.
+            Fusce sed massa sapien. </p>
+        <a href="#">Read More</a>
     </div>
 
     <pre>
-                <code>
-                    &lt;div class=&quot;card1&quot;&gt;
-                    &lt;div class=&quot;photo&quot;&gt;
-                        &lt;img src=&quot;https://cdn.pixabay.com/photo/2017/01/31/19/07/succulent-in-blue-pot-2026508__340.jpg&quot;
-                            alt=&quot;&quot;&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;content&quot;&gt;
-                        &lt;h2&gt;content Heading&lt;/h2&gt;
-                        &lt;small&gt;Sub Heading&lt;/small&gt;
-                        &lt;p&gt;This is the content paragraph.&lt;/p&gt;
-                        &lt;span class=&quot;price&quot;&gt;Rs. 999&lt;/span&gt;
-                        &lt;span class=&quot;crossPrice&quot;&gt;Rs.1099&lt;/span&gt;
-                        &lt;span class=&quot;offer&quot;&gt;10%&lt;/span&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;button&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img
-                                src=&quot;https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png&quot; /&gt;Add to
-                            cart&lt;/a href=&quot;#&quot;&gt;&lt;/div&gt;
-                &lt;/div&gt;
-                </code>
-            </pre>
+        <code>
+            &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/Naruto.jpg?fit=1280%2C720&amp;ssl=1&quot;
+            alt=&quot;Placeholder image&quot;&gt;
+        &lt;h3&gt;Card Title&lt;/h3&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis libero vel erat bibendum sodales.
+            Fusce sed massa sapien. &lt;/p&gt;
+        &lt;a href=&quot;#&quot;&gt;Read More&lt;/a&gt;
+  &lt;/div&gt;
+        </code>
+    </pre>
+
+
+
     <br><br><br><br>
 
     <h1>Sample card-2</h1>
     <hr>
 
-    <div class="card2">
-        <div class="image">
-            <div class="img">
-                <img src="https://cdn.pixabay.com/photo/2019/06/17/08/24/pastel-4279379_960_720.jpg" alt="image">
-            </div>
-            <div class="text">
-                <h2>Content Heading</h2>
-                <p>this is the body of content</p>
-            </div>
-        </div>
-        <div class="bottom">
-            <br>
-            <a href="#">READ</a>
-            <a href="#">BOOKMARK</a>
-            <span>🤍</span>
-            <span><img src="https://img.icons8.com/small/2x/share.png" /></span>
-            <span><img
-                    src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/20/000000/external-three-dots-user-interface-kmg-design-glyph-kmg-design.png" /></span>
-        </div>
+    <div class="card">
+        <img src="https://assets.reedpopcdn.com/Genshin-Impact-anime.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/Genshin-Impact-anime.jpg"
+            alt="Placeholder image">
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis libero vel erat bibendum sodales.
+            Fusce sed massa sapien. </p>
+        <a href="#">Read More</a>
     </div>
 
     <pre>
-    <code>
-        &lt;div class=&quot;card2&quot;&gt;
-    &lt;div class=&quot;image&quot;&gt;
-        &lt;div class=&quot;img&quot;&gt;
-            &lt;img src=&quot;https://cdn.pixabay.com/photo/2019/06/17/08/24/pastel-4279379_960_720.jpg&quot; alt=&quot;image&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;text&quot;&gt;
-            &lt;h2&gt;Content Heading&lt;/h2&gt;
-                &lt;p&gt;this is the body of content&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;bottom&quot;&gt;
-        &lt;br&gt;
-        &lt;a href=&quot;#&quot;&gt;READ&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;BOOKMARK&lt;/a&gt;
-        &lt;span&gt;🤍&lt;/span&gt;
-        &lt;span&gt;&lt;img src=&quot;https://img.icons8.com/small/2x/share.png&quot; /&gt;&lt;/span&gt;
-        &lt;span&gt;&lt;img
-                src=&quot;https://img.icons8.com/external-kmg-design-glyph-kmg-design/20/000000/external-three-dots-user-interface-kmg-design-glyph-kmg-design.png&quot; /&gt;&lt;/span&gt;
-    &lt;/div&gt;
-    </code>
-  </pre>
+        <code>
+            &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/Naruto.jpg?fit=1280%2C720&amp;ssl=1&quot;
+            alt=&quot;Placeholder image&quot;&gt;
+        &lt;h3&gt;Card Title&lt;/h3&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis libero vel erat bibendum sodales.
+            Fusce sed massa sapien. &lt;/p&gt;
+        &lt;a href=&quot;#&quot;&gt;Read More&lt;/a&gt;
+  &lt;/div&gt;
+        </code>
+    </pre>
+
 </div>
 
 
@@ -676,9 +651,9 @@
 </pre>
 <div id="snackbar"></div>
 
-<button onclick="showSnackbar()">Show Snackbar</button>
-<button onclick="showSnackbar()">Show Snackbar</button>
-<button onclick="showSnackbar()">Show Snackbar</button>
+<button class="sn" onclick="showSnackbar()">Show Snackbar</button>
+<button class="sn" onclick="showSnackbar()">Show Snackbar</button>
+<button class="sn" onclick="showSnackbar()">Show Snackbar</button>
 
 <pre>
     <code>
