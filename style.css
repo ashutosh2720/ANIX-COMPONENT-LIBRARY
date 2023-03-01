@@ -65,13 +65,7 @@
 
 }
 
-.overview {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 20px;
-   margin-top: 20px;
-}
+
 
 .footer {
    display: flex;
@@ -185,4 +179,28 @@
 
 .accordion-item.active .accordion-content {
    display: block;
+}
+
+@media screen and (max-width:600px) and (min-width:300px) {
+
+   .footer {
+      font-size: .5rem;
+   }
+
+   .footer .social img {
+      width: 100px;
+   }
+
+}
+
+@media screen and (max-width:800px) and (min-width:600px) {
+
+   .footer {
+      font-size: .9rem;
+   }
+
+   .footer .social img {
+      width: 150px;
+   }
+
 }

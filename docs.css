@@ -212,6 +212,7 @@ span {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 2px;
     }
 
 
@@ -258,4 +259,11 @@ span {
 
 }
 
-@media screen and (max-width:620px) and (min-width:200px) {}
+
+@media screen and (max-width:600px) and (min-width:200px) {
+
+    footer {
+        font-size: .1rem;
+    }
+
+}
