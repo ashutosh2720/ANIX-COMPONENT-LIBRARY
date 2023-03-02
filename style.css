@@ -101,10 +101,10 @@
    background-color: rgba(31, 182, 241, 0.586);
    color: black;
    cursor: pointer;
-   gap: 20px;
+   gap: 10px;
    padding: 18px 20px;
    font-family: 'Merienda', cursive;
-   border-radius: 20px;
+   border-radius: 10px;
    font-size: .6rem;
 }
 
@@ -114,7 +114,7 @@
 }
 
 .accordion-header::after {
-   /* content: '\002B'; */
+   content: '\002B';
    color: #777;
    font-weight: bold;
    position: absolute;
@@ -133,7 +133,7 @@
    align-items: center;
    background-color: #fff;
    max-height: 0;
-   color: blue;
+   color: black;
    font-size: .7rem;
    max-width: 100%;
    overflow: hidden;
@@ -146,7 +146,7 @@
 .accordion-content.active {
    max-height: 10px;
    /* Adjust as needed */
-   transition: max-height 0.2s ease-in;
+   transition: max-height 0.4s ease-in;
 }
 
 
@@ -169,7 +169,7 @@
 }
 
 .accordion-header:hover {
-   background-color: #ddd;
+   background-color: rgb(83, 183, 91);
 }
 
 .accordion-content {
